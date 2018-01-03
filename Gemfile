@@ -6,6 +6,9 @@ gem 'puma', '~> 3.7'
 gem 'will_paginate', '~> 3.1.6'
 gem 'brewery_db', '~> 0.2.4'
 gem 'foreman', '~> 0.84.0'
+gem 'faker'
+gem 'tzinfo-data'
+gem 'wdm', '>= 0.1.0'
 
 group :development, :test do
   gem 'pry', '~> 0.10.4'
